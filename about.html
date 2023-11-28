@@ -63,7 +63,7 @@
             </section>
         </section>
         <section id="clients">
-            <h1>Some of our clients</h1>
+            <h2>Some of our clients</h2>
                 <li class="logos">
                     <img src="img/logo1.png" alt="Logo1">
                     <img src="img/logo2.png" alt="Logo2">
@@ -71,7 +71,40 @@
                 </li>
         </section>
         <section id="contact-us">
-            
+            <h2>Contact us</h2>
+            <article id="contact-us-form">
+            <!--Kode hjelp hentet fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail-->
+                <h3>Send us a message</h3>
+                <p>Name</p>
+                <!--Husk å add Ola Nordmann.. inn i input felt-->
+                <input type="text" name="name">
+                <p>Subject</p>
+                <input type="text" name="subject">
+                <p>Message</p>
+                <!--kode hjelp fra her til å lage text area inni email form https://stackoverflow.com/questions/35914802/how-to-make-input-type-email-a-textarea-->
+                <textarea name="Message" id="message" rows="4" cols="50"></textarea>
+                <input type="submit" value="Send message" id="submit">
+            </article>
+            <article id="contact-info">
+                <h3>Contact information</h3>
+                <p>Aliquam faucibus purus in massa tempor nec feugiat nisl. Ut faucibus pulvinar elementum integer enim. Congue eu consequat ac felis donec et odio. Libero volutpat sed cras ornare arcu dui vivamus arcu felis</p>
+                <div class="contact-information">
+                    <!--Husk iconer her-->
+                    <i class="#"></i>
+                    <p>B R A Veien 4, 1757 Halden</p>
+                </div>
+                <div class="contact-information">
+                    <i class="#"></i>
+                    <p>69 60 80 00</p>
+                </div> 
+                <div class="contact-information">
+                    <i class="#"></i>
+                    <p><a href="mailto:postmottak@hiof.no">postmottak@hiof.no</a></p>
+                </div>
+            </article>
+        </section>
+        <section class="map">
+
         </section>
     </main>
     <footer>
