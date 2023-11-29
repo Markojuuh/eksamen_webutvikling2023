@@ -58,7 +58,7 @@ nav {
     justify-content: center;
     position: relative;
     align-items: center;
-    padding: 0,5rem;
+    padding: 0;
     height: 36px;
     width: 90px;
 }
@@ -79,7 +79,7 @@ main {
 
 .background-image-section {
     position: relative;
-    background: url('400x400placehol.png') cover no-repeat;
+    background: url('400x400placehol.png') cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -159,7 +159,7 @@ h1, p {
 }
 
 .read-more-btn:hover {
-    background-color: none;
+    
     color: #fff
 }
 
