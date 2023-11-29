@@ -40,6 +40,7 @@ nav {
     display: block;
     list-style: none;
     margin: auto;
+    font-weight: bold;
 }
 
 .navbar li {
@@ -75,4 +76,17 @@ main {
 .headline {
     background-color: #252525;
     padding: 40px;
+}
+
+.services-btn {
+    background-color: #e6bd43;
+    color: black;
+    display: inline-block;
+    padding: 12px 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services-btn :hover {
+    font-size: 120%;
 }
