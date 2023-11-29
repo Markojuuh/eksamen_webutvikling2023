@@ -248,3 +248,21 @@ h1, p {
     color: white;
 }
 
+/*Portfolio CSS*/
+#branding {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.branding-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.branding-img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
