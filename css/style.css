@@ -120,6 +120,14 @@ h1, p {
     font-size: 120%;
 }
 
+#company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
 .company-section {
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -127,6 +135,10 @@ h1, p {
     margin-bottom: 20px;
     overflow: hidden;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin-right: 20px;
 }
 
 .company-image {
