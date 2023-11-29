@@ -266,3 +266,33 @@ h1, p {
     margin-bottom: 20px;
 }
 
+.article-card img {
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%
+}
+
+#design .article-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#design .article-card img {
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%
+}
+
+#development .article-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#development .article-card img {
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%
+}
