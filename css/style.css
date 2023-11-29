@@ -3,8 +3,16 @@ body {
     font-size:1rem;
     max-width: 1600px;
     width: 100%;
+    box-sizing: border-box;
 }
 
+
+/*CSS index side*/
+header {
+    text-align: center;
+    width:100%;
+    padding:
+}
 #logo {
     display: inline-block;
     height: 100px;
@@ -12,5 +20,15 @@ body {
 }
 
 .navbar {
-    
+    list-style: none;
+    margin:0;
+    padding:0;
 }
+
+.navbar a {
+    position: relative;
+    display: block;
+    list-style: none;
+    margin: auto;
+}
+
