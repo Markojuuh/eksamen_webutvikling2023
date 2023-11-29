@@ -13,16 +13,26 @@ header {
     width:100%;
     padding:
 }
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logo {
     display: inline-block;
     height: 100px;
     width: 100px;
+    order: -1;
 }
 
 .navbar {
     list-style: none;
     margin:0;
     padding:0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar a {
@@ -30,5 +40,9 @@ header {
     display: block;
     list-style: none;
     margin: auto;
+}
+
+.navbar li {
+    margin-right: 15px;
 }
 
