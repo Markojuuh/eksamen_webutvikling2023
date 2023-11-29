@@ -181,7 +181,7 @@ h1, p {
 }
 
 #newsletter {
-    background-color: #252525;
+    background-color: grey;
     color: white;
     text-align: center;
     padding: 20px;
@@ -202,5 +202,36 @@ h1, p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #252525;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sosiale-medier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerlogo {
+    display: block;
+}
+
+.sosiale-medier p {
+    margin: 0;
+}
+
+.sosiale-medier-linker {
+    display: flex;
+    gap: 10px;
+}
+
+.sosiale-medier-linker a {
+    text-decoration: none;
+    color: white;
 }
 
