@@ -79,7 +79,7 @@ main {
 
 .background-image-section {
     position: relative;
-    background: url('400x400placehol.png') cover;
+    background: url('400x400placehol.png');
     height: 400px;
     display: flex;
     align-items: center;
