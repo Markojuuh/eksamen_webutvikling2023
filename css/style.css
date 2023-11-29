@@ -77,6 +77,26 @@ main {
     text-align: center;
 }
 
+.background-image-section {
+    position: relative;
+    background: url('400x400placehol.png') cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:black; 
+}
+
+.content-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+h1, p {
+    margin: 0;
+}
+
 .headline {
     background-color: #252525;
     padding: 40px;
@@ -85,12 +105,17 @@ main {
 .services-btn {
     background-color: #e6bd43;
     color: black;
+
+    border: none;
+    border-radius: 5px;
     display: inline-block;
-    padding: 12px 8px;
+    padding: 12px 20px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .services-btn:hover {
+    background-color: #f0d56d;
     font-size: 120%;
 }
