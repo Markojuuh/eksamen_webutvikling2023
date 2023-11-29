@@ -149,3 +149,58 @@ h1, p {
     background-color: none;
     color: #fff
 }
+
+#our-services {
+    text-align: center;
+}
+
+#servicebar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#servicebar li {
+    width: 250px;
+    margin: 10px;
+    text-align: left;
+}
+
+#servicebar a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color:#333;
+}
+
+#servicebar p {
+    margin: 10px 0;
+    color: #666;
+}
+
+#newsletter {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#sign-up {
+    margin-bottom: 10px;
+}
+/*Hentet kode hjelp fra https://chat.openai.com/*/
+#newsletter input [type="text"],
+#newsletter input [type="submit"] {
+    padding: 10px;
+}
+/*Hentet kode hjelp fra https://chat.openai.com/*/
+#newsletter input[type="submit"] {
+    background-color: #e6bd43;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
